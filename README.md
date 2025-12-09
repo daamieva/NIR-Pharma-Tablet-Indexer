@@ -14,7 +14,9 @@ I was brought onto the team to explore the possibility of making this nondestruc
 
 ## Overview
 The system I created moves the tablets onto and off of the NIR sensor using a starwheel device. I was inspired to make this design "revolve" (no pun intended) around the starwheel technology after seeing it used to move bottled pharmaceuticals and other objects within assembly lines. The starwheel is powered by a stepper motor and arduino. 
-This is the first prototype, so the goal here was to just prove that a tablet could be indexed onto and off of the sensor in a quick and controlled manner, all while displaying a consistent measurement of the light distribution for each tablet. Check out how it works in ['media/'](/media/)
+This is the first prototype, so the goal here was to just prove that a tablet could be indexed onto and off of the sensor in a quick and controlled manner, all while displaying a consistent measurement of the light distribution for each tablet. Check out how it works in [`media/`](/media/)
+
+*The following document regarding IP [`Purdue Research IP`](https://www.purdue.edu/research/oevprp/regulatory-affairs/intellectual-property-faq.php) shows that since I was an unpaid undergraduate researcher and did not use Purdue funds or grants to complete my work, this project is my intellectual property.*
 
 ---
 
@@ -40,7 +42,7 @@ Include:
 ---
 
 ### Wiring Diagram
-Schematic for electronical components is in ['hardware/electronics/'](hardware/electronics/)
+Schematic for electronical components is in [`hardware/electronics/`](hardware/electronics/)
 
 ---
 
