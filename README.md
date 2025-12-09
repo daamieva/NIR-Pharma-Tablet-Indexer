@@ -1,6 +1,4 @@
-# NIR Tablet Indexer for Continuous Manufacturing
-
-System designed to automatically move pharmaceutical tablets onto and off of a near-infrared (NIR) sensor. The NIR sensor allows for measuring tablet strength in a nondestructive manner. <mark>work</mark>
+# NIR Pharmaceutical Tablet Indexer for Continuous Manufacturing
 
 ---
 ## Preface
@@ -20,7 +18,7 @@ This is the first prototype, so the goal here was to just prove that a tablet co
 
 ---
 
-## 🛠️ Hardware Components
+### Hardware Components
 - Stepper Motor: NEMA17
 - Motor driver: L298N
 - Microcontroller: Arduino UNO (any similar microcontroller can be used)
@@ -30,7 +28,7 @@ This is the first prototype, so the goal here was to just prove that a tablet co
 
 ---
 
-## CAD Files
+### CAD Files
 All custom-designed components are in [`hardware/mechanical/cad/`](hardware/mechanical/cad/).
 
 Include:
@@ -40,12 +38,12 @@ Include:
 
 ---
 
-## Wiring Diagram
+### Wiring Diagram
 Schematic for electronical components is in ['hardware/electronics/'](hardware/electronics/)
 
 ---
 
-## Software: Arduino Stepper Indexer
+### Software: Arduino Stepper Indexer
 A simple, configurable 45° indexing mechanism controlled by an Arduino + L298N driver.
 
 Code and documentation here: [`software/`](software/)
