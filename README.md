@@ -14,17 +14,17 @@ I was brought onto the team to explore the possibility of making this nondestruc
 
 ## Overview
 The system I created moves the tablets onto and off of the NIR sensor using a starwheel device. I was inspired to make this design "revolve" (no pun intended) around the starwheel technology after seeing it used to move bottled pharmaceuticals and other objects within assembly lines. The starwheel is powered by a stepper motor and arduino. 
-This is the first prototype, so the goal here was to just prove that a tablet could be indexed onto and off of the sensor in a quick and controlled manner, all while displaying a consistent measurement of the light distribution for each tablet. 
+This is the first prototype, so the goal here was to just prove that a tablet could be indexed onto and off of the sensor in a quick and controlled manner, all while displaying a consistent measurement of the light distribution for each tablet. Check out how it works in ['media/'](/media/)
 
 ---
 
 ### Hardware Components
-- Stepper Motor: NEMA17
-- Motor driver: L298N
-- Microcontroller: Arduino UNO (any similar microcontroller can be used)
-- Frame: 3D-printed parts
-- Sensor: NIR Sensor
-- Power: 12V supply
+* Stepper Motor: NEMA17
+* Motor driver: L298N
+* Microcontroller: Arduino UNO (any similar microcontroller can be used)
+* Frame: 3D-printed parts
+* Sensor: NIR Sensor
+* Power: 12V supply
 
 ---
 
@@ -32,9 +32,10 @@ This is the first prototype, so the goal here was to just prove that a tablet co
 All custom-designed components are in [`hardware/mechanical/cad/`](hardware/mechanical/cad/).
 
 Include:
-- NIR Tablet Indexer Stand   
-- NIR Tablet Indexer Stator
-- NIR Tablet Indexer Rotor
+* NIR Tablet Indexer Stand   
+* NIR Tablet Indexer Stator
+* NIR Tablet Indexer Rotor
+* NIR sensor dummy representation for testing
 
 ---
 
