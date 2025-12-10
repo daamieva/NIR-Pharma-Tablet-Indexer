@@ -53,7 +53,7 @@ const int motorSpeed = 10;        // RPM
 
 ## **Serial Control**
 
-To control the motor, open the Serial Monitor at **9600 baud**.
+To control the motor, open the Serial Monitor.
 
 Send:
 
@@ -80,9 +80,8 @@ No external libraries needed — `Stepper.h` comes bundled with Arduino IDE (Jus
 
 ```
 software/
-  arduino/
-    starwheel-controller/
-      starwheel-controller.ino
+  code/
+    StepMotorCode.ino
 ```
 
 ---
@@ -104,5 +103,3 @@ motor.step(-stepsToMove);
 ```
 
 ---
-
-If you want, I can also create a **diagram**, **pin mapping table**, or a **block diagram figure** to include in the README.
