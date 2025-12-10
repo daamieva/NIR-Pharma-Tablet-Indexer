@@ -30,7 +30,7 @@ This is the first prototype, so the goal here was to just prove that a tablet co
 
 ---
 
-### CAD Files
+### CAD Files & Engineering Drawings
 All custom-designed components are in [`hardware/mechanical/cad/`](hardware/mechanical/cad/).
 
 Include:
@@ -38,6 +38,8 @@ Include:
 * NIR Tablet Indexer Stator
 * NIR Tablet Indexer Rotor
 * NIR sensor dummy representation for testing
+
+Engineering drawings are in [`hardware/mechanica/drawings/](hardware/mechanical/drawings/)
 
 ---
 
